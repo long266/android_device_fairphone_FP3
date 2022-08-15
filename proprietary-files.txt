@@ -982,6 +982,7 @@ vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib/hw/vulkan.adreno.so
 vendor/lib/hw/vulkan.adreno.so:vendor/lib/hw/vulkan.msm8953.so
+vendor/lib/modules/pronto_wlan.ko
 vendor/lib/lib-imsSDP.so
 vendor/lib/lib-imscmservice.so
 vendor/lib/lib-imsdpl.so
