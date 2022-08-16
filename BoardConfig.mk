@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/fairphone/FP3
+DEVICE_PATH := device/vsmart/casuarina
 
-BOARD_VENDOR := Fairphone
+BOARD_VENDOR := Vsmart
 
 TARGET_ENFORCES_QSSI := true
 
@@ -75,7 +75,7 @@ TARGET_FS_CONFIG_GEN += \
     $(DEVICE_PATH)/configs/config.fs
 
 # Display
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 320
 
 # Kernel
 BOARD_KERNEL_BASE        := 0x80000000
@@ -104,7 +104,7 @@ BOARD_BOOT_HEADER_VERSION := 1
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := FP3
+TARGET_OTA_ASSERT_DEVICE := casuarina,casuarina_open,V430A
 
 # Filesystem
 BOARD_PERSISTIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -295,4 +295,4 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 TARGET_USES_QCOM_WCNSS_QMI := true
 
 # inherit from the proprietary version
--include vendor/fairphone/FP3/BoardConfigVendor.mk
+-include vendor/vsmart/casuarina/BoardConfigVendor.mk

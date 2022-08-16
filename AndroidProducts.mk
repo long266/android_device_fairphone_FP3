@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_FP3.mk
+    $(LOCAL_DIR)/xdroid_casuarina.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_FP3-user \
-    xdroid_FP3-userdebug \
-    xdroid_FP3-eng
+    xdroid_casuarina-user \
+    xdroid_casuarina-userdebug \
+    xdroid_casuarina-eng
